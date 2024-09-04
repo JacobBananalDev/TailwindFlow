@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/header/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world using Tailwindcss!
-  </h1>
+    <div className="flex">
+      <div className="flex-1 flex flex-col ">
+        <Header headerLabel='TailwindFlow'/>
+      </div>
+    </div>
   )
 }
 
