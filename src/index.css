@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body{
-  background-color: gray;
+  background-color: #DEE4E7;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.dark body{
+  background-color: #37474F;
 }
